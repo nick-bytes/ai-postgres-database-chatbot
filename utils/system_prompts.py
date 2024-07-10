@@ -1,6 +1,6 @@
 import psycopg2
 import streamlit as st
-from config import db_credentials
+from utils.config import db_credentials
 
 
 GENERATE_SQL_PROMPT = """
